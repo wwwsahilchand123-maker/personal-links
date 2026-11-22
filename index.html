@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080609">
+  <meta name="description" content="Personal links">
+  <title>Personal Links</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <main class="scene" aria-label="Social links">
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="web web-left" aria-hidden="true"></div>
+    <div class="web web-right" aria-hidden="true"></div>
+    <div class="embers" aria-hidden="true"></div>
+
+    <svg class="swing-stage" viewBox="0 0 420 520" role="presentation" aria-hidden="true">
+      <defs>
+        <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ff626b"/>
+          <stop offset=".48" stop-color="#c8172c"/>
+          <stop offset="1" stop-color="#4b0712"/>
+        </linearGradient>
+        <filter id="redGlow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      </defs>
+      <path class="web-line" d="M310 -8 Q280 92 245 145" />
+      <g class="hero" filter="url(#redGlow)">
+        <path d="M240 128 C217 117 193 91 181 60 C173 40 177 22 190 12 C202 4 216 12 218 28 L232 69 L247 36 C254 20 270 16 280 27 C290 40 279 62 268 79 L252 124 Z" fill="url(#suit)" stroke="#ff9aa0" stroke-width="2"/>
+        <path d="M216 31 L204 24 M269 41 L279 34" stroke="#f8dadd" stroke-width="5" stroke-linecap="round"/>
+        <path d="M235 126 C207 154 176 184 154 218 C137 244 119 266 91 282 L60 265 C89 233 105 207 129 181 C153 153 186 127 213 111 Z" fill="url(#suit)" stroke="#e94b59" stroke-width="2"/>
+        <path d="M245 126 C270 157 295 187 308 222 C318 252 343 270 373 280 L388 253 C355 229 343 202 328 170 C312 139 283 115 259 104 Z" fill="url(#suit)" stroke="#e94b59" stroke-width="2"/>
+        <path d="M221 111 C198 136 196 171 216 195 C239 220 278 197 275 163 C273 139 259 119 244 107 Z" fill="#790d1c" stroke="#ff6874" stroke-width="2"/>
+        <path d="M217 129 Q239 147 260 126 M210 148 Q237 164 271 143 M211 169 Q238 181 268 164" fill="none" stroke="#ff8a92" stroke-width="1.5" opacity=".75"/>
+        <path d="M221 113 Q237 123 253 111" fill="none" stroke="#ffd5d7" stroke-width="2"/>
+      </g>
+    </svg>
+
+    <nav class="links" aria-label="External profiles">
+      <a class="link" href="https://github.com/wwwsahilchand123-maker" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.29-1.23-1.63-1.23-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .17 1.67-.76 2.08-1.17-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.04-1.14 3.04-1.14.61 1.53.23 2.67.12 2.95.71.78 1.14 1.77 1.14 2.99 0 4.27-2.6 5.21-5.08 5.49.4.35.76 1.02.76 2.06v3.7c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+      </a>
+      <a class="link" href="https://tryhackme.com/p/sahilchand05" target="_blank" rel="noopener noreferrer" aria-label="TryHackMe" title="TryHackMe">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5 2.5 7v10L12 22.5 21.5 17V7L12 1.5Zm0 3.1 6.5 3.75v6.3L12 18.4l-6.5-3.75v-6.3L12 4.6Zm-1.6 3.1v8.6l7.2-4.3-7.2-4.3Z"/></svg>
+      </a>
+      <a class="link" href="https://wwwsahilchand123-maker.github.io/portfolio/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio" title="Portfolio">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4.5A2.5 2.5 0 0 1 10.5 2h3A2.5 2.5 0 0 1 16 4.5V6h3.2A2.8 2.8 0 0 1 22 8.8v9.4a2.8 2.8 0 0 1-2.8 2.8H4.8A2.8 2.8 0 0 1 2 18.2V8.8A2.8 2.8 0 0 1 4.8 6H8V4.5Zm2 1.5h4V4.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V6Zm-6 5v7.7c0 .44.36.8.8.8h14.4a.8.8 0 0 0 .8-.8V11a9.2 9.2 0 0 1-7 2.8A9.2 9.2 0 0 1 4 11Zm0-2v.15c1.45 1.7 3.7 2.65 7 2.65s5.55-.95 7-2.65V8.8a.8.8 0 0 0-.8-.8H4.8a.8.8 0 0 0-.8.8Z"/></svg>
+      </a>
+      <a class="link" href="mailto:www.sahilchand123@gmail.com" aria-label="Email" title="Email">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm9 8.1L20.3 7H3.7l8.3 6.1Zm0 2.45L3 8.9V17h18V8.9l-9 6.65Z"/></svg>
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/sahil-chand-rajwar-68b575426" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3A2.2 2.2 0 1 1 5.2 7.4 2.2 2.2 0 0 1 5.2 3ZM3.3 9h3.8v12H3.3V9Zm6.1 0H13v1.64h.05c.5-.95 1.72-1.95 3.55-1.95 3.8 0 4.5 2.5 4.5 5.74V21h-3.8v-5.82c0-1.39-.03-3.18-1.94-3.18-1.94 0-2.24 1.51-2.24 3.08V21H9.4V9Z"/></svg>
+      </a>
+      <a class="link" href="https://www.instagram.com/rajwar5_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2A3.2 3.2 0 0 0 4 7.2v9.6A3.2 3.2 0 0 0 7.2 20h9.6a3.2 3.2 0 0 0 3.2-3.2V7.2A3.2 3.2 0 0 0 16.8 4H7.2Zm4.8 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 2a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8Zm5.1-3.45a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+      </a>
+    </nav>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+</html>
